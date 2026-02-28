@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/login.css">
+    <title>Jejak Kecil</title>
+</head>
+
+<body>
+    <form id="formLogin" onsubmit="return validasiEmail()">
+        <div class="dalamForm">
+            <div class="gambarContainer">
+                <img src="src/img/bintang.png" alt="iconBintang" class="iconBintang">
+                <img src="src/img/imgloginregister.jpg" alt="img gradient" class="imgGradient">
+                <h4 class="textMoto">Together We Trust</h4>
+                <h2 class="textMoto2">Belajar perlahan, tumbuh bersama, dalam setiap jejak kecil.</h2>
+            </div>
+            <div class="textIsi">
+                <img src="src/img/Asterisk 3.jpg" alt="iconBintang2" class="iconBintang2">
+                <h2 class="textLogin">Login an account</h2>
+                <h4 class="subTextlogin">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+
+                <div class="form-group">
+                    <h5 class="textEmail">Your email</h5>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+
+                <div class="form-group">
+                    <h5 class="textPassword">Your password</h5>
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
+                </div>
+
+                <input type="submit" value="Login">
+            </div>
+
+        </div>
+    </form>
+    <script src="login.js"></script>
+</body>
+
+</html>
