@@ -20,6 +20,7 @@ form {
     width: 800px;
     height: 600px;
     box-shadow: inset;
+    display: flex;
     animation: fadeSlide 1s ease;
 
 }
@@ -27,16 +28,18 @@ form {
 .gambarContainer {
     position: relative;
     width: 360px;
+    padding-left: 4px;
 }
 
 .dalamForm {
     display: flex;
     align-items: flex-start;
+    padding-left: 20px;
 }
 
 .textIsi {
     padding-top: 58px;
-    padding-left: 60px;
+    padding-left: 30px;
 }
 
 .iconBintang {
@@ -60,7 +63,7 @@ form {
     width: 392px;
     height: auto;
     display: block;
-    border-radius: 48px;
+    border-radius: 44px;
     margin-right: 22px;
     padding-left: 10px;
     padding-top: 10px;
@@ -138,6 +141,7 @@ input[type="password"] {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 
 .social-login {
     margin-top: 20px;
