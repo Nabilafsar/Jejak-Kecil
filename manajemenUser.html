@@ -38,6 +38,39 @@
         <div class="table-body" id="tableBody"></div>
     </main>
 
+    <!-- MODAL EDIT PASSWORD -->
+<div class="modal-overlay" id="editModal">
+    <div class="modal-box">
+        <h2 class="modal-title">Change Password</h2>
+        <div class="modal-field">
+            <label>New Password :</label>
+            <input type="password" id="newPassword" placeholder="">
+        </div>
+        <div class="modal-field">
+            <label>Confirmation :</label>
+            <input type="password" id="confirmPassword" placeholder="">
+        </div>
+        <p class="modal-note">*Are you sure want to change password?</p>
+        <div class="modal-actions">
+            <button class="btn-no" onclick="closeEdit()">✕ No</button>
+            <button class="btn-yes" onclick="confirmEdit()">✓ Yes</button>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL HAPUS USER -->
+<div class="modal-overlay" id="deleteModal">
+    <div class="modal-box">
+        <h2 class="modal-title">Delete User</h2>
+        <p class="modal-confirm-text">Are you sure want to delete this user?</p>
+        <div class="modal-actions">
+            <button class="btn-no" onclick="closeDelete()">✕ No</button>
+            <button class="btn-yes" onclick="confirmDelete()">✓ Yes</button>
+        </div>
+    </div>
+</div>
     <script src="manajemenUser.js"></script>
+
+
 </body>
 </html>
